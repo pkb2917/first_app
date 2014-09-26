@@ -13,7 +13,7 @@ end
 
 # Gems used only for assets and not required
 # in production environments by default.
-#group :assets do
+group :assets do
   gem 'sass-rails'
   gem 'coffee-rails'
 
@@ -21,14 +21,11 @@ end
   # gem 'therubyracer', :platforms => :ruby
 
   gem 'uglifier', '2.1.1'
-#end
+end
 
 gem 'jquery-rails'
 
 gem 'turbolinks', '1.1.1'
-
-# To use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
 
 # To use Jbuilder templates for JSON
 gem 'jbuilder', '1.0.2'
@@ -42,11 +39,3 @@ group :production do
     gem 'rails_12factor', '0.0.2'
 end
 
-# Use unicorn as the app server
-# gem 'unicorn'
-
-# Deploy with Capistrano
-# gem 'capistrano'
-
-# To use debugger
-# gem 'debugger'
